@@ -25,8 +25,10 @@ This project implements a complete smart parking solution integrating "Linux Ker
 ## 🔧 How to Build
 
 1. Compile the Kernel Module
+   ```bash
    cd driver
    make
    sudo insmod alarm_driver.ko
-2. Run the LPR
+3. Run the LPR
+   ```bash
    python LPR.py
